@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='/style/main.css'>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script src='login.js'></script>
+</head>
+<body>
+
+	<div class="grid-container">
+		<div class="nav_section">
+			<div id="left_section">
+				<span id="logoText">Chilling</span>
+			</div>
+			<div id="right_section">
+				<button id="menu-button" >
+					<ion-icon name="menu" id="iconMenu"></ion-icon>
+				</button>
+			</div>
+		</div>
+		<div class="img-logo-section">
+			<div id="logo_topMainContent">
+				<div>
+					<h1 id="greeting">Hi there!</h1>
+				</div>
+				<div>
+					<img id="img_Logo" src ="/pictures/Logo.svg" alt="logo" >
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="input-login-section">
+			<form name="myLogin" id = "myLogin">
+				
+				<div class="input-box">
+					<h1 class="text-welcome">Welcome Back!</h1>
+					<input type="text" name="username" placeholder="Username" >
+					<input type="password" name="password" placeholder="password">
+					<div class="input-box-">
+						<button type="submit" class="login" id="login" value="Login" >Login</button>
+					</div>
+						<p id="confic">Or</p>
+						<ion-icon class="icon-login-choice" name="logo-google"></ion-icon>
+						<ion-icon class="icon-login-choice" name="logo-facebook"></ion-icon>
+						<ion-icon class="icon-login-choice" name="logo-instagram"></ion-icon>
+						<ion-icon class="icon-login-choice" name="logo-discord"></ion-icon>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+</body>
+</html>
